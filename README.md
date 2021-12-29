@@ -5,14 +5,14 @@ Small Cafe Management System with C# Window Form Application
 This application is about cafe management system which can manage dashboard, sale, user, menu, order, employee and tables.
 I use pure Window Form Appliaction C# and ms sql for this project.
 
-## 2 Panels
+## Admin Panel
+<img src="https://github.com/Y2theK/Cafe-Management-with-Csharp/blob/main/demo%20images/home.PNG" width=50% height=50% alt= "Admin Home Page">
+<img src="https://github.com/Y2theK/Cafe-Management-with-Csharp/blob/main/demo%20images/addEmployee.PNG" width=50% height=50% alt= "Adding Employee Page">
 
-1. Admin Panel
-![Admin panel Screen](https://github.com/Y2theK/ample-onlinequiz/blob/main/demo%20images/home.PNG "Admin Home Page")
    
     
-2. Counter Panel
-![Counter Panel Screen](https://github.com/Y2theK/ample-onlinequiz/blob/main/demo%20images/home.PNG "Counter Order Page")
+## Counter Panel
+<img src="https://github.com/Y2theK/Cafe-Management-with-Csharp/blob/main/demo%20images/counterPanel.PNG" width=50% height=50% alt= "Counter Order Page">
    
 
 ## To do list ( under development )
@@ -22,21 +22,25 @@ I use pure Window Form Appliaction C# and ms sql for this project.
 
 
 ## Features
-1. Menu Management
-2. Order Management
-3. Employee Management
-4. Table Management
-5. User Profile
-6. Sale and Order Form
-7. Daily Income automatically calculation
-5. Auto Receipt calculation
-6. Accounts Management
+- [x] Menu Management
+- [x] Order Management
+- [x] Employee Management
+- [x] Table Management
+- [x] User Profile
+- [x] Sale and Order Form
+- [x] Daily Income automatically calculation
+- [x] Auto billing
+- [ ] Accounts Management
+- [ ] Category Management
+- [ ] Sale History
+
 
 ## Techlogies used
 `Pure C#` `Ms sql` `Window Form Application `
 
-## Screenshot
-![Mockup Screen](https://github.com/Y2theK/ample-onlinequiz/blob/master/assets/demo%20images/counterPanel.PNG "MockUp")
+## More Screenshots
+<img src="https://github.com/Y2theK/Cafe-Management-with-Csharp/blob/main/demo%20images/login.PNG" width=50% height=50% alt= "Login Page">
+<img src="https://github.com/Y2theK/Cafe-Management-with-Csharp/blob/main/demo%20images/home.PNG" width=50% height=50% alt= "Menu Page">
 
 ## Author
 **Ye Yint Kyaw**
