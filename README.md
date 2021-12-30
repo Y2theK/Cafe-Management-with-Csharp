@@ -40,7 +40,7 @@ I use pure Window Form Appliaction C# and ms sql for this project.
 
 ## More Screenshots
 <img src="https://github.com/Y2theK/Cafe-Management-with-Csharp/blob/main/demo%20images/login.PNG" width=50% height=50% alt= "Login Page">
-<img src="https://github.com/Y2theK/Cafe-Management-with-Csharp/blob/main/demo%20images/home.PNG" width=50% height=50% alt= "Menu Page">
+<img src="https://github.com/Y2theK/Cafe-Management-with-Csharp/blob/main/demo%20images/menu.PNG" width=50% height=50% alt= "Menu Page">
 
 ## Author
 **Ye Yint Kyaw**
