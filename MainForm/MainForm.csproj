@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D1FB86AD-996B-4B3C-BB7E-063EA0F8F041}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MainForm</RootNamespace>
+    <AssemblyName>MainForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addEmployee.Designer.cs">
+      <DependentUpon>addEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addMenu.Designer.cs">
+      <DependentUpon>addMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addTable.Designer.cs">
+      <DependentUpon>addTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bitmap.cs" />
+    <Compile Include="cafeAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cafeAccounts.Designer.cs">
+      <DependentUpon>cafeAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cafeCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cafeCategory.Designer.cs">
+      <DependentUpon>cafeCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CafeEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CafeEmployee.Designer.cs">
+      <DependentUpon>CafeEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CafeHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CafeHome.Designer.cs">
+      <DependentUpon>CafeHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CafeMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CafeMenu.Designer.cs">
+      <DependentUpon>CafeMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cafeMenuList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cafeMenuList.Designer.cs">
+      <DependentUpon>cafeMenuList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cafeMenuView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cafeMenuView.Designer.cs">
+      <DependentUpon>cafeMenuView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cafeOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cafeOrder.Designer.cs">
+      <DependentUpon>cafeOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cafeSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cafeSale.Designer.cs">
+      <DependentUpon>cafeSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CafeSaleHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CafeSaleHistory.Designer.cs">
+      <DependentUpon>CafeSaleHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CafeTables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CafeTables.Designer.cs">
+      <DependentUpon>CafeTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cafeUserAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cafeUserAccount.Designer.cs">
+      <DependentUpon>cafeUserAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoeCafeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoeCafeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoeCafeDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoeCafeDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoeCafeDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoeCafeDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoeCafeDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoeCafeDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoeCafeDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoeCafeDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoeCafeDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoeCafeDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoeCafeDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoeCafeDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoeCafeDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoeCafeDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ComingSoonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComingSoonForm.Designer.cs">
+      <DependentUpon>ComingSoonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginIn.Designer.cs">
+      <DependentUpon>LoginIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="addEmployee.resx">
+      <DependentUpon>addEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addMenu.resx">
+      <DependentUpon>addMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addTable.resx">
+      <DependentUpon>addTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cafeAccounts.resx">
+      <DependentUpon>cafeAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cafeCategory.resx">
+      <DependentUpon>cafeCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CafeEmployee.resx">
+      <DependentUpon>CafeEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CafeHome.resx">
+      <DependentUpon>CafeHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CafeMenu.resx">
+      <DependentUpon>CafeMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cafeMenuList.resx">
+      <DependentUpon>cafeMenuList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cafeMenuView.resx">
+      <DependentUpon>cafeMenuView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cafeOrder.resx">
+      <DependentUpon>cafeOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cafeSale.resx">
+      <DependentUpon>cafeSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CafeSaleHistory.resx">
+      <DependentUpon>CafeSaleHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CafeTables.resx">
+      <DependentUpon>CafeTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cafeUserAccount.resx">
+      <DependentUpon>cafeUserAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComingSoonForm.resx">
+      <DependentUpon>ComingSoonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginIn.resx">
+      <DependentUpon>LoginIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="CoeCafeDataSet.xsc">
+      <DependentUpon>CoeCafeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoeCafeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CoeCafeDataSet.xss">
+      <DependentUpon>CoeCafeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet1.xsc">
+      <DependentUpon>CoeCafeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoeCafeDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CoeCafeDataSet1.xss">
+      <DependentUpon>CoeCafeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet2.xsc">
+      <DependentUpon>CoeCafeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoeCafeDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CoeCafeDataSet2.xss">
+      <DependentUpon>CoeCafeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet3.xsc">
+      <DependentUpon>CoeCafeDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoeCafeDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CoeCafeDataSet3.xss">
+      <DependentUpon>CoeCafeDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet4.xsc">
+      <DependentUpon>CoeCafeDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoeCafeDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CoeCafeDataSet4.xss">
+      <DependentUpon>CoeCafeDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet5.xsc">
+      <DependentUpon>CoeCafeDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoeCafeDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CoeCafeDataSet5.xss">
+      <DependentUpon>CoeCafeDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet6.xsc">
+      <DependentUpon>CoeCafeDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoeCafeDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CoeCafeDataSet6.xss">
+      <DependentUpon>CoeCafeDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet7.xsc">
+      <DependentUpon>CoeCafeDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="CoeCafeDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoeCafeDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CoeCafeDataSet7.xss">
+      <DependentUpon>CoeCafeDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sensor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waiter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_293407591_xYrIut5L5WHYeosCK9k6mpAIHkLq6Dzt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seo-and-web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\criss-cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top-view-cup-coffee-with-roasted-beans_52683-32340.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coffee-3b474deb-48c2-4f17-9a7b-60b74123b2a8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\superhero.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

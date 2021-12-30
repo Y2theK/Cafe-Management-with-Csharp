@@ -1,0 +1,51 @@
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\bin\Debug\MainForm.exe.config
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\bin\Debug\MainForm.exe
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\bin\Debug\MainForm.pdb
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.Form1.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.Properties.Resources.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.csproj.GenerateResource.Cache
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.exe
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.pdb
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.CafeTables.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.addTable.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.CafeEmployee.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.addEmployee.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.LoginIn.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.addMenu.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.CafeMenu.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeMenuList.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeSale.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.csprojResolveAssemblyReference.cache
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.CafeHome.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeOrder.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeMenuView.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeCategory.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.CafeSaleHistory.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeUserAccount.resources
+C:\Users\Y2K\Desktop\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeAccounts.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\bin\Debug\MainForm.exe.config
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.exe
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.pdb
+C:\My files\MyProject\C#\CoeCafe\MainForm\bin\Debug\MainForm.exe
+C:\My files\MyProject\C#\CoeCafe\MainForm\bin\Debug\MainForm.pdb
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.csprojResolveAssemblyReference.cache
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.addEmployee.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.addMenu.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.addTable.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeAccounts.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeCategory.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.CafeEmployee.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.CafeHome.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.CafeMenu.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeMenuList.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeMenuView.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeOrder.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeSale.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.CafeSaleHistory.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.CafeTables.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.cafeUserAccount.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.Form1.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.LoginIn.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.Properties.Resources.resources
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.csproj.GenerateResource.Cache
+C:\My files\MyProject\C#\CoeCafe\MainForm\obj\Debug\MainForm.ComingSoonForm.resources
